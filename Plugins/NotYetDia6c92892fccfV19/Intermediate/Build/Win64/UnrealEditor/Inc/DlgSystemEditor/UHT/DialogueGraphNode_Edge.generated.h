@@ -1,0 +1,62 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Editor/Nodes/DialogueGraphNode_Edge.h"
+
+#ifdef DLGSYSTEMEDITOR_DialogueGraphNode_Edge_generated_h
+#error "DialogueGraphNode_Edge.generated.h already included, missing '#pragma once' in DialogueGraphNode_Edge.h"
+#endif
+#define DLGSYSTEMEDITOR_DialogueGraphNode_Edge_generated_h
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+// ********** Begin Class UDialogueGraphNode_Edge **************************************************
+struct Z_Construct_UClass_UDialogueGraphNode_Edge_Statics;
+DLGSYSTEMEDITOR_API UClass* Z_Construct_UClass_UDialogueGraphNode_Edge(ETypeConstructPhase);
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_21_INCLASS_NO_PURE_DECLS \
+private: \
+	friend struct ::Z_Construct_UClass_UDialogueGraphNode_Edge_Statics; \
+	friend DLGSYSTEMEDITOR_API UClass* ::Z_Construct_UClass_UDialogueGraphNode_Edge(ETypeConstructPhase); \
+public: \
+	DECLARE_CLASS2(UDialogueGraphNode_Edge, UDialogueGraphNode_Base, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DlgSystemEditor"), Z_Construct_UClass_UDialogueGraphNode_Edge) \
+	DECLARE_SERIALIZER(UDialogueGraphNode_Edge)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_21_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDialogueGraphNode_Edge(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UDialogueGraphNode_Edge(UDialogueGraphNode_Edge&&) = delete; \
+	UDialogueGraphNode_Edge(const UDialogueGraphNode_Edge&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDialogueGraphNode_Edge); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDialogueGraphNode_Edge); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDialogueGraphNode_Edge) \
+	NO_API virtual ~UDialogueGraphNode_Edge();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_18_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_21_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_21_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h_21_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+class UDialogueGraphNode_Edge;
+
+// ********** End Class UDialogueGraphNode_Edge ****************************************************
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystemEditor_Editor_Nodes_DialogueGraphNode_Edge_h
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

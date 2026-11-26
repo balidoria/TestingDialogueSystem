@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/DlgSystem/Module.DlgSystem.cpp.o",
+		"../../../arm64/UnrealGame/Development/DlgSystem/Module.DlgSystem.cpp.o",
+		"../../../x64/UnrealGame/Development/DlgSystem/Module.DlgSystem.cpp.o",
+		"../../../x64/UnrealGame/Development/DlgSystem/Module.DlgSystem.cpp.o"
+	]
+}

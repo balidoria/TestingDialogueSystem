@@ -1,0 +1,8 @@
+{
+	"BuildId": "55116800",
+	"Modules": 
+	{
+		"DlgSystem": "libUnrealEditor-DlgSystem.dylib",
+		"DlgSystemEditor": "libUnrealEditor-DlgSystemEditor.dylib"
+	}
+}

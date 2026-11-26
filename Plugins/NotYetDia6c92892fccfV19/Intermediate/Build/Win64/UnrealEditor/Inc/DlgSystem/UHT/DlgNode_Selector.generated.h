@@ -1,0 +1,77 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Nodes/DlgNode_Selector.h"
+
+#ifdef DLGSYSTEM_DlgNode_Selector_generated_h
+#error "DlgNode_Selector.generated.h already included, missing '#pragma once' in DlgNode_Selector.h"
+#endif
+#define DLGSYSTEM_DlgNode_Selector_generated_h
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class EDlgNodeSelectorType : uint8;
+
+// ********** Begin Class UDlgNode_Selector ********************************************************
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetSelectorType);
+
+
+struct Z_Construct_UClass_UDlgNode_Selector_Statics;
+DLGSYSTEM_API UClass* Z_Construct_UClass_UDlgNode_Selector(ETypeConstructPhase);
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_INCLASS_NO_PURE_DECLS \
+private: \
+	friend struct ::Z_Construct_UClass_UDlgNode_Selector_Statics; \
+	friend DLGSYSTEM_API UClass* ::Z_Construct_UClass_UDlgNode_Selector(ETypeConstructPhase); \
+public: \
+	DECLARE_CLASS2(UDlgNode_Selector, UDlgNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DlgSystem"), Z_Construct_UClass_UDlgNode_Selector) \
+	DECLARE_SERIALIZER(UDlgNode_Selector)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_ENHANCED_CONSTRUCTORS \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UDlgNode_Selector(UDlgNode_Selector&&) = delete; \
+	UDlgNode_Selector(const UDlgNode_Selector&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDlgNode_Selector); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDlgNode_Selector); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDlgNode_Selector) \
+	NO_API virtual ~UDlgNode_Selector();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_24_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h_27_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+class UDlgNode_Selector;
+
+// ********** End Class UDlgNode_Selector **********************************************************
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_DlgSystem_Source_DlgSystem_Nodes_DlgNode_Selector_h
+
+// ********** Begin Enum EDlgNodeSelectorType ******************************************************
+#define FOREACH_ENUM_EDLGNODESELECTORTYPE(op) \
+	op(EDlgNodeSelectorType::First) \
+	op(EDlgNodeSelectorType::Random) 
+
+enum class EDlgNodeSelectorType : uint8;
+template<> struct TIsUEnumClass<EDlgNodeSelectorType> { enum { Value = true }; };
+template<> UE_NODEBUG DLGSYSTEM_NON_ATTRIBUTED_API UEnum* StaticEnum<EDlgNodeSelectorType>();
+// ********** End Enum EDlgNodeSelectorType ********************************************************
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
